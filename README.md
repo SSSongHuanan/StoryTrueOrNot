@@ -26,7 +26,7 @@ A deep learning system for classifying true and deceptive stories based on audio
 
 1. Clone the repository:
    ```bash
-   git clone [repository_url]
+   git clone https://github.com/SSSongHuanan/StoryTrueOrNot.git
    cd story_classification
    ```
 
