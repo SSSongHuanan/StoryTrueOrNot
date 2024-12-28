@@ -1,0 +1,35 @@
+2024-12-28 15:32:04,282 INFO    MainThread:2088 [wandb_setup.py:_flush():68] Current SDK version is 0.19.1
+2024-12-28 15:32:04,282 INFO    MainThread:2088 [wandb_setup.py:_flush():68] Configure stats pid to 2088
+2024-12-28 15:32:04,282 INFO    MainThread:2088 [wandb_setup.py:_flush():68] Loading settings from /root/.config/wandb/settings
+2024-12-28 15:32:04,282 INFO    MainThread:2088 [wandb_setup.py:_flush():68] Loading settings from /root/autodl-tmp/StoryTrueOrNot/wandb/settings
+2024-12-28 15:32:04,282 INFO    MainThread:2088 [wandb_setup.py:_flush():68] Loading settings from environment variables
+2024-12-28 15:32:04,282 INFO    MainThread:2088 [wandb_init.py:_log_setup():528] Logging user logs to /root/autodl-tmp/StoryTrueOrNot/wandb/run-20241228_153204-xgve3fsq/logs/debug.log
+2024-12-28 15:32:04,282 INFO    MainThread:2088 [wandb_init.py:_log_setup():529] Logging internal logs to /root/autodl-tmp/StoryTrueOrNot/wandb/run-20241228_153204-xgve3fsq/logs/debug-internal.log
+2024-12-28 15:32:04,283 INFO    MainThread:2088 [wandb_init.py:_jupyter_setup():474] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7f2cd47a3d90>
+2024-12-28 15:32:04,283 INFO    MainThread:2088 [wandb_init.py:init():644] calling init triggers
+2024-12-28 15:32:04,283 INFO    MainThread:2088 [wandb_init.py:init():650] wandb.init called with sweep_config: {}
+config: {'project_name': 'story_classification', 'paths': {'audio_dir': 'data/audio', 'attributes_file': 'data/attributes.csv', 'model_save_path': 'models/best_model.pth', 'log_dir': 'logs', 'features_cache_dir': 'data/features_cache', 'use_cache': True, 'checkpoints_dir': 'models/checkpoints', 'predict_audio_dir': 'inference_data/audio', 'predict_attributes_file': 'inference_data/attributes.csv'}, 'model': {'input_size': 31, 'hidden_size': 768, 'num_models': 5, 'num_attention_heads': 8, 'num_residual_layers': 4, 'dropout_rate': 0.1}, 'training': {'batch_size': 16, 'num_workers': 4, 'num_epochs': 50, 'initial_lr': 2e-05, 'max_lr': 0.0002, 'warmup_epochs': 10, 'steps_per_epoch': 100, 'weight_decay': 0.02, 'grad_clip': 0.5, 'patience': 15, 'k_folds': 5, 'label_smoothing': 0.1, 'mixup_alpha': 0.2, 'scheduler': {'type': 'cosine_warmup', 'min_lr': 1e-06, 'cycle_mult': 2, 'cycle_decay': 0.5}, 'optimizer': {'type': 'adamw', 'betas': [0.9, 0.999], 'eps': 1e-08}}, 'wandb': {'enabled': True, 'project_name': 'story_classification', 'mode': 'online', 'log_interval': 50}, 'audio': {'sample_rate': 22050, 'duration': None, 'min_duration': 1.0, 'max_duration': 30.0}, 'augmentation': {'enabled': True, 'noise_factor': 0.01, 'pitch_shift_range': 3, 'speed_change_range': 0.3, 'room_reverb': 0.4, 'time_mask_param': 40, 'freq_mask_param': 20, 'time_stretch_range': [0.9, 1.1], 'gain_range': [-6, 6], 'mix_background': {'enabled': True, 'mix_ratio_range': [0.1, 0.3], 'noise_types': ['white', 'pink', 'brown']}, 'spec_augment': {'enabled': True, 'time_mask_num': 2, 'freq_mask_num': 2, 'time_mask_param': 40, 'freq_mask_param': 20}}, 'preprocessing': {'remove_silence': True, 'normalize': True, 'preemphasis': True, 'vad_enabled': True, 'vad_threshold': 30, 'trim_silence': {'enabled': True, 'top_db': 30, 'frame_length': 2048, 'hop_length': 512}, 'filter': {'enabled': True, 'highpass_freq': 50, 'lowpass_freq': 8000}}, 'features': {'mfcc': {'n_mfcc': 40, 'n_mels': 128, 'n_fft': 2048, 'hop_length': 512}, 'spectral': {'n_chroma': 12, 'rolloff_percent': 0.85}, 'prosodic': {'pitch_min': 50, 'pitch_max': 500}}, 'mode': 'train', 'inference': {'ensemble_method': 'weighted', 'threshold': 0.5, 'batch_size': 32}}
+2024-12-28 15:32:04,283 INFO    MainThread:2088 [wandb_init.py:init():680] starting backend
+2024-12-28 15:32:04,283 INFO    MainThread:2088 [wandb_init.py:init():684] sending inform_init request
+2024-12-28 15:32:04,284 INFO    MainThread:2088 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-12-28 15:32:04,284 INFO    MainThread:2088 [wandb_init.py:init():697] backend started and connected
+2024-12-28 15:32:04,291 INFO    MainThread:2088 [wandb_run.py:_label_probe_notebook():1222] probe notebook
+2024-12-28 15:32:04,291 INFO    MainThread:2088 [wandb_run.py:_label_probe_notebook():1232] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2024-12-28 15:32:04,291 INFO    MainThread:2088 [wandb_init.py:init():790] updated telemetry
+2024-12-28 15:32:04,293 INFO    MainThread:2088 [wandb_init.py:init():822] communicating run to backend with 90.0 second timeout
+2024-12-28 15:32:05,030 INFO    MainThread:2088 [wandb_init.py:init():874] starting run threads in backend
+2024-12-28 15:32:05,217 INFO    MainThread:2088 [wandb_run.py:_console_start():2374] atexit reg
+2024-12-28 15:32:05,217 INFO    MainThread:2088 [wandb_run.py:_redirect():2224] redirect: wrap_raw
+2024-12-28 15:32:05,217 INFO    MainThread:2088 [wandb_run.py:_redirect():2289] Wrapping output streams.
+2024-12-28 15:32:05,217 INFO    MainThread:2088 [wandb_run.py:_redirect():2314] Redirects installed.
+2024-12-28 15:32:05,217 INFO    MainThread:2088 [wandb_init.py:init():916] run started, returning control to user process
+2024-12-28 15:32:52,157 INFO    MainThread:2088 [wandb_run.py:_finish():2100] finishing run songhuanan-queen-mary-university-of-london/story_classification/xgve3fsq
+2024-12-28 15:32:52,159 INFO    MainThread:2088 [jupyter.py:save_history():458] not saving jupyter history
+2024-12-28 15:32:52,159 INFO    MainThread:2088 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2024-12-28 15:32:52,159 INFO    MainThread:2088 [wandb_init.py:_jupyter_teardown():456] cleaning up jupyter logic
+2024-12-28 15:32:52,160 INFO    MainThread:2088 [wandb_run.py:_atexit_cleanup():2339] got exitcode: 0
+2024-12-28 15:32:52,161 INFO    MainThread:2088 [wandb_run.py:_restore():2321] restore
+2024-12-28 15:32:52,161 INFO    MainThread:2088 [wandb_run.py:_restore():2327] restore done
+2024-12-28 15:32:55,092 INFO    MainThread:2088 [wandb_run.py:_footer_history_summary_info():3892] rendering history
+2024-12-28 15:32:55,095 INFO    MainThread:2088 [wandb_run.py:_footer_history_summary_info():3924] rendering summary
+2024-12-28 15:32:55,113 INFO    MainThread:2088 [wandb_run.py:_footer_sync_info():3853] logging synced files

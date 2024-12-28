@@ -1,0 +1,139 @@
+{
+    "project_name": "story_classification",
+    "paths": {
+        "audio_dir": "data/audio",
+        "attributes_file": "data/attributes.csv",
+        "model_save_path": "models/best_model.pth",
+        "log_dir": "logs",
+        "features_cache_dir": "data/features_cache",
+        "use_cache": true,
+        "checkpoints_dir": "models/checkpoints",
+        "predict_audio_dir": "inference_data/audio",
+        "predict_attributes_file": "inference_data/attributes.csv"
+    },
+    "model": {
+        "input_size": 31,
+        "hidden_size": 768,
+        "num_models": 5,
+        "num_attention_heads": 8,
+        "num_residual_layers": 4,
+        "dropout_rate": 0.1
+    },
+    "training": {
+        "batch_size": 16,
+        "num_workers": 4,
+        "num_epochs": 50,
+        "initial_lr": 2e-05,
+        "max_lr": 0.0002,
+        "warmup_epochs": 10,
+        "steps_per_epoch": 100,
+        "weight_decay": 0.02,
+        "grad_clip": 0.5,
+        "patience": 15,
+        "k_folds": 5,
+        "label_smoothing": 0.1,
+        "mixup_alpha": 0.2,
+        "scheduler": {
+            "type": "cosine_warmup",
+            "min_lr": 1e-06,
+            "cycle_mult": 2,
+            "cycle_decay": 0.5
+        },
+        "optimizer": {
+            "type": "adamw",
+            "betas": [
+                0.9,
+                0.999
+            ],
+            "eps": 1e-08
+        }
+    },
+    "wandb": {
+        "enabled": true,
+        "project_name": "story_classification",
+        "mode": "online",
+        "log_interval": 50
+    },
+    "audio": {
+        "sample_rate": 22050,
+        "duration": null,
+        "min_duration": 1.0,
+        "max_duration": 30.0
+    },
+    "augmentation": {
+        "enabled": true,
+        "noise_factor": 0.01,
+        "pitch_shift_range": 3,
+        "speed_change_range": 0.3,
+        "room_reverb": 0.4,
+        "time_mask_param": 40,
+        "freq_mask_param": 20,
+        "time_stretch_range": [
+            0.9,
+            1.1
+        ],
+        "gain_range": [
+            -6,
+            6
+        ],
+        "mix_background": {
+            "enabled": true,
+            "mix_ratio_range": [
+                0.1,
+                0.3
+            ],
+            "noise_types": [
+                "white",
+                "pink",
+                "brown"
+            ]
+        },
+        "spec_augment": {
+            "enabled": true,
+            "time_mask_num": 2,
+            "freq_mask_num": 2,
+            "time_mask_param": 40,
+            "freq_mask_param": 20
+        }
+    },
+    "preprocessing": {
+        "remove_silence": true,
+        "normalize": true,
+        "preemphasis": true,
+        "vad_enabled": true,
+        "vad_threshold": 30,
+        "trim_silence": {
+            "enabled": true,
+            "top_db": 30,
+            "frame_length": 2048,
+            "hop_length": 512
+        },
+        "filter": {
+            "enabled": true,
+            "highpass_freq": 50,
+            "lowpass_freq": 8000
+        }
+    },
+    "features": {
+        "mfcc": {
+            "n_mfcc": 40,
+            "n_mels": 128,
+            "n_fft": 2048,
+            "hop_length": 512
+        },
+        "spectral": {
+            "n_chroma": 12,
+            "rolloff_percent": 0.85
+        },
+        "prosodic": {
+            "pitch_min": 50,
+            "pitch_max": 500
+        }
+    },
+    "mode": "train",
+    "inference": {
+        "ensemble_method": "weighted",
+        "threshold": 0.5,
+        "batch_size": 32
+    }
+}

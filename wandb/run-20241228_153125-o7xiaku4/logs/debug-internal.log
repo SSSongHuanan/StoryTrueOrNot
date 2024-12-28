@@ -1,0 +1,17 @@
+{"time":"2024-12-28T15:31:25.933608508+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2024-12-28T15:31:25.933645621+08:00","level":"INFO","msg":"created symlink","path":"/root/autodl-tmp/StoryTrueOrNot/wandb/run-20241228_153125-o7xiaku4/logs/debug-core.log"}
+{"time":"2024-12-28T15:31:26.055886956+08:00","level":"INFO","msg":"created new stream","id":"o7xiaku4"}
+{"time":"2024-12-28T15:31:26.055931668+08:00","level":"INFO","msg":"stream: started","id":"o7xiaku4"}
+{"time":"2024-12-28T15:31:26.055976793+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"o7xiaku4"}
+{"time":"2024-12-28T15:31:26.055984912+08:00","level":"INFO","msg":"handler: started","stream_id":"o7xiaku4"}
+{"time":"2024-12-28T15:31:26.056035905+08:00","level":"INFO","msg":"sender: started","stream_id":"o7xiaku4"}
+{"time":"2024-12-28T15:31:26.75181842+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-28T15:31:58.366756105+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-28T15:31:58.367894681+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-12-28T15:31:59.371756651+08:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading config.yaml","runtime_seconds":0.254447056,"progress":"3.5KB/3.5KB"},{"desc":"uploading output.log","runtime_seconds":0.254427672,"progress":"18.4KB/18.4KB"}],"total_operations":2}}
+{"time":"2024-12-28T15:31:59.769525201+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-12-28T15:32:01.555395609+08:00","level":"INFO","msg":"stream: closing","id":"o7xiaku4"}
+{"time":"2024-12-28T15:32:01.555479655+08:00","level":"INFO","msg":"handler: closed","stream_id":"o7xiaku4"}
+{"time":"2024-12-28T15:32:01.555508313+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"o7xiaku4"}
+{"time":"2024-12-28T15:32:01.555541457+08:00","level":"INFO","msg":"sender: closed","stream_id":"o7xiaku4"}
+{"time":"2024-12-28T15:32:01.555667379+08:00","level":"INFO","msg":"stream: closed","id":"o7xiaku4"}

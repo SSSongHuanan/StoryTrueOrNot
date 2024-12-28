@@ -1,0 +1,153 @@
+_wandb:
+    value:
+        cli_version: 0.19.1
+        m: []
+        python_version: 3.10.8
+        t:
+            "1":
+                - 1
+                - 5
+                - 53
+                - 55
+            "2":
+                - 1
+                - 5
+                - 53
+                - 55
+            "3":
+                - 2
+                - 16
+                - 23
+                - 55
+            "4": 3.10.8
+            "5": 0.19.1
+            "8":
+                - 1
+                - 5
+            "12": 0.19.1
+            "13": linux-x86_64
+audio:
+    value:
+        duration: null
+        max_duration: 30
+        min_duration: 1
+        sample_rate: 22050
+augmentation:
+    value:
+        enabled: true
+        freq_mask_param: 20
+        gain_range:
+            - -6
+            - 6
+        mix_background:
+            enabled: true
+            mix_ratio_range:
+                - 0.1
+                - 0.3
+            noise_types:
+                - white
+                - pink
+                - brown
+        noise_factor: 0.01
+        pitch_shift_range: 3
+        room_reverb: 0.4
+        spec_augment:
+            enabled: true
+            freq_mask_num: 2
+            freq_mask_param: 20
+            time_mask_num: 2
+            time_mask_param: 40
+        speed_change_range: 0.3
+        time_mask_param: 40
+        time_stretch_range:
+            - 0.9
+            - 1.1
+features:
+    value:
+        mfcc:
+            hop_length: 512
+            n_fft: 2048
+            n_mels: 128
+            n_mfcc: 40
+        prosodic:
+            pitch_max: 500
+            pitch_min: 50
+        spectral:
+            n_chroma: 12
+            rolloff_percent: 0.85
+inference:
+    value:
+        batch_size: 32
+        ensemble_method: weighted
+        threshold: 0.5
+mode:
+    value: train
+model:
+    value:
+        dropout_rate: 0.1
+        hidden_size: 768
+        input_size: 31
+        num_attention_heads: 8
+        num_models: 5
+        num_residual_layers: 4
+paths:
+    value:
+        attributes_file: data/attributes.csv
+        audio_dir: data/audio
+        checkpoints_dir: models/checkpoints
+        features_cache_dir: data/features_cache
+        log_dir: logs
+        model_save_path: models/best_model.pth
+        predict_attributes_file: inference_data/attributes.csv
+        predict_audio_dir: inference_data/audio
+        use_cache: true
+preprocessing:
+    value:
+        filter:
+            enabled: true
+            highpass_freq: 50
+            lowpass_freq: 8000
+        normalize: true
+        preemphasis: true
+        remove_silence: true
+        trim_silence:
+            enabled: true
+            frame_length: 2048
+            hop_length: 512
+            top_db: 30
+        vad_enabled: true
+        vad_threshold: 30
+project_name:
+    value: story_classification
+training:
+    value:
+        batch_size: 16
+        grad_clip: 0.5
+        initial_lr: 2e-05
+        k_folds: 5
+        label_smoothing: 0.1
+        max_lr: 0.0002
+        mixup_alpha: 0.2
+        num_epochs: 50
+        num_workers: 4
+        optimizer:
+            betas:
+                - 0.9
+                - 0.999
+            eps: 1e-08
+            type: adamw
+        patience: 15
+        scheduler:
+            cycle_decay: 0.5
+            cycle_mult: 2
+            min_lr: 1e-06
+            type: cosine_warmup
+        steps_per_epoch: 100
+        warmup_epochs: 10
+        weight_decay: 0.02
+wandb:
+    value:
+        enabled: true
+        log_interval: 50
+        mode: online
+        project_name: story_classification

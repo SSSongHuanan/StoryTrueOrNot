@@ -1,0 +1,160 @@
+Training: 100%|██████████| 5/5 [00:00<00:00,  7.36it/s, loss=0.0587, acc=47.5, lr=1e-6]
+/root/miniconda3/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+2024-12-28 15:32:59,830 - src.trainer - INFO - Epoch 1/50
+2024-12-28 15:32:59,832 - src.trainer - INFO - Train Loss: 0.0587, Train Acc: 0.4750
+2024-12-28 15:32:59,833 - src.trainer - INFO - val_loss: 0.0829
+2024-12-28 15:32:59,835 - src.trainer - INFO - val_accuracy: 0.5000
+2024-12-28 15:32:59,837 - src.trainer - INFO - val_precision: 0.0000
+2024-12-28 15:32:59,838 - src.trainer - INFO - val_recall: 0.0000
+2024-12-28 15:32:59,839 - src.trainer - INFO - val_f1: 0.0000
+Training: 100%|██████████| 5/5 [00:00<00:00,  7.02it/s, loss=0.0543, acc=50, lr=2e-6]    
+/root/miniconda3/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+2024-12-28 15:33:00,909 - src.trainer - INFO - Epoch 2/50
+2024-12-28 15:33:00,911 - src.trainer - INFO - Train Loss: 0.0543, Train Acc: 0.5000
+2024-12-28 15:33:00,912 - src.trainer - INFO - val_loss: 0.0499
+2024-12-28 15:33:00,914 - src.trainer - INFO - val_accuracy: 0.5000
+2024-12-28 15:33:00,915 - src.trainer - INFO - val_precision: 0.0000
+2024-12-28 15:33:00,917 - src.trainer - INFO - val_recall: 0.0000
+2024-12-28 15:33:00,918 - src.trainer - INFO - val_f1: 0.0000
+Training: 100%|██████████| 5/5 [00:00<00:00,  7.75it/s, loss=0.0512, acc=41.2, lr=3e-6]  
+2024-12-28 15:33:01,930 - src.trainer - INFO - Epoch 3/50
+2024-12-28 15:33:01,933 - src.trainer - INFO - Train Loss: 0.0512, Train Acc: 0.4125
+2024-12-28 15:33:01,935 - src.trainer - INFO - val_loss: 0.0609
+2024-12-28 15:33:01,937 - src.trainer - INFO - val_accuracy: 0.5000
+2024-12-28 15:33:01,938 - src.trainer - INFO - val_precision: 0.5000
+2024-12-28 15:33:01,940 - src.trainer - INFO - val_recall: 1.0000
+2024-12-28 15:33:01,941 - src.trainer - INFO - val_f1: 0.6667
+Training: 100%|██████████| 5/5 [00:00<00:00,  7.52it/s, loss=0.0517, acc=50, lr=4e-6]    
+2024-12-28 15:33:06,048 - src.trainer - INFO - Epoch 4/50
+2024-12-28 15:33:06,052 - src.trainer - INFO - Train Loss: 0.0517, Train Acc: 0.5000
+2024-12-28 15:33:06,054 - src.trainer - INFO - val_loss: 0.0393
+2024-12-28 15:33:06,055 - src.trainer - INFO - val_accuracy: 0.5000
+2024-12-28 15:33:06,058 - src.trainer - INFO - val_precision: 0.5000
+2024-12-28 15:33:06,061 - src.trainer - INFO - val_recall: 1.0000
+2024-12-28 15:33:06,063 - src.trainer - INFO - val_f1: 0.6667
+Training: 100%|██████████| 5/5 [00:00<00:00,  6.52it/s, loss=0.0462, acc=51.2, lr=5e-6] 
+/root/miniconda3/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+2024-12-28 15:33:07,207 - src.trainer - INFO - Epoch 5/50
+2024-12-28 15:33:07,209 - src.trainer - INFO - Train Loss: 0.0462, Train Acc: 0.5125
+2024-12-28 15:33:07,211 - src.trainer - INFO - val_loss: 0.0486
+2024-12-28 15:33:07,213 - src.trainer - INFO - val_accuracy: 0.5000
+2024-12-28 15:33:07,214 - src.trainer - INFO - val_precision: 0.0000
+2024-12-28 15:33:07,216 - src.trainer - INFO - val_recall: 0.0000
+2024-12-28 15:33:07,217 - src.trainer - INFO - val_f1: 0.0000
+Training: 100%|██████████| 5/5 [00:00<00:00,  7.56it/s, loss=0.0495, acc=53.8, lr=6e-6]  
+/root/miniconda3/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+2024-12-28 15:33:08,316 - src.trainer - INFO - Epoch 6/50
+2024-12-28 15:33:08,318 - src.trainer - INFO - Train Loss: 0.0495, Train Acc: 0.5375
+2024-12-28 15:33:08,320 - src.trainer - INFO - val_loss: 0.0562
+2024-12-28 15:33:08,321 - src.trainer - INFO - val_accuracy: 0.5000
+2024-12-28 15:33:08,323 - src.trainer - INFO - val_precision: 0.0000
+2024-12-28 15:33:08,325 - src.trainer - INFO - val_recall: 0.0000
+2024-12-28 15:33:08,326 - src.trainer - INFO - val_f1: 0.0000
+Training: 100%|██████████| 5/5 [00:00<00:00,  7.24it/s, loss=0.0448, acc=52.5, lr=7e-6]  
+2024-12-28 15:33:09,403 - src.trainer - INFO - Epoch 7/50
+2024-12-28 15:33:09,406 - src.trainer - INFO - Train Loss: 0.0448, Train Acc: 0.5250
+2024-12-28 15:33:09,407 - src.trainer - INFO - val_loss: 0.0423
+2024-12-28 15:33:09,408 - src.trainer - INFO - val_accuracy: 0.5000
+2024-12-28 15:33:09,410 - src.trainer - INFO - val_precision: 0.5000
+2024-12-28 15:33:09,411 - src.trainer - INFO - val_recall: 1.0000
+2024-12-28 15:33:09,414 - src.trainer - INFO - val_f1: 0.6667
+Training: 100%|██████████| 5/5 [00:00<00:00,  7.29it/s, loss=0.0467, acc=52.5, lr=8e-6]  
+2024-12-28 15:33:10,467 - src.trainer - INFO - Epoch 8/50
+2024-12-28 15:33:10,471 - src.trainer - INFO - Train Loss: 0.0467, Train Acc: 0.5250
+2024-12-28 15:33:10,473 - src.trainer - INFO - val_loss: 0.0451
+2024-12-28 15:33:10,475 - src.trainer - INFO - val_accuracy: 0.4500
+2024-12-28 15:33:10,477 - src.trainer - INFO - val_precision: 0.4667
+2024-12-28 15:33:10,478 - src.trainer - INFO - val_recall: 0.7000
+2024-12-28 15:33:10,481 - src.trainer - INFO - val_f1: 0.5600
+Training: 100%|██████████| 5/5 [00:00<00:00,  7.23it/s, loss=0.0465, acc=48.8, lr=9e-6]  
+/root/miniconda3/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+2024-12-28 15:33:11,612 - src.trainer - INFO - Epoch 9/50
+2024-12-28 15:33:11,614 - src.trainer - INFO - Train Loss: 0.0465, Train Acc: 0.4875
+2024-12-28 15:33:11,615 - src.trainer - INFO - val_loss: 0.0477
+2024-12-28 15:33:11,616 - src.trainer - INFO - val_accuracy: 0.5000
+2024-12-28 15:33:11,618 - src.trainer - INFO - val_precision: 0.0000
+2024-12-28 15:33:11,619 - src.trainer - INFO - val_recall: 0.0000
+2024-12-28 15:33:11,620 - src.trainer - INFO - val_f1: 0.0000
+Training: 100%|██████████| 5/5 [00:00<00:00,  6.59it/s, loss=0.0502, acc=47.5, lr=1e-5]  
+2024-12-28 15:33:12,607 - src.trainer - INFO - Epoch 10/50
+2024-12-28 15:33:12,610 - src.trainer - INFO - Train Loss: 0.0502, Train Acc: 0.4750
+2024-12-28 15:33:12,611 - src.trainer - INFO - val_loss: 0.0407
+2024-12-28 15:33:12,613 - src.trainer - INFO - val_accuracy: 0.5500
+2024-12-28 15:33:12,614 - src.trainer - INFO - val_precision: 0.5714
+2024-12-28 15:33:12,616 - src.trainer - INFO - val_recall: 0.4000
+2024-12-28 15:33:12,617 - src.trainer - INFO - val_f1: 0.4706
+Training: 100%|██████████| 5/5 [00:00<00:00,  8.87it/s, loss=0.0472, acc=52.5, lr=1.1e-5] 
+2024-12-28 15:33:13,445 - src.trainer - INFO - Epoch 11/50
+2024-12-28 15:33:13,448 - src.trainer - INFO - Train Loss: 0.0472, Train Acc: 0.5250
+2024-12-28 15:33:13,451 - src.trainer - INFO - val_loss: 0.0431
+2024-12-28 15:33:13,452 - src.trainer - INFO - val_accuracy: 0.5000
+2024-12-28 15:33:13,453 - src.trainer - INFO - val_precision: 0.5000
+2024-12-28 15:33:13,455 - src.trainer - INFO - val_recall: 0.1000
+2024-12-28 15:33:13,457 - src.trainer - INFO - val_f1: 0.1667
+Training: 100%|██████████| 5/5 [00:00<00:00,  8.44it/s, loss=0.0455, acc=55, lr=1.2e-5]   
+2024-12-28 15:33:14,330 - src.trainer - INFO - Epoch 12/50
+2024-12-28 15:33:14,333 - src.trainer - INFO - Train Loss: 0.0455, Train Acc: 0.5500
+2024-12-28 15:33:14,334 - src.trainer - INFO - val_loss: 0.0432
+2024-12-28 15:33:14,336 - src.trainer - INFO - val_accuracy: 0.6500
+2024-12-28 15:33:14,337 - src.trainer - INFO - val_precision: 0.8000
+2024-12-28 15:33:14,338 - src.trainer - INFO - val_recall: 0.4000
+2024-12-28 15:33:14,339 - src.trainer - INFO - val_f1: 0.5333
+Training: 100%|██████████| 5/5 [00:00<00:00,  8.17it/s, loss=0.0437, acc=53.8, lr=1.3e-5] 
+2024-12-28 15:33:15,199 - src.trainer - INFO - Epoch 13/50
+2024-12-28 15:33:15,202 - src.trainer - INFO - Train Loss: 0.0437, Train Acc: 0.5375
+2024-12-28 15:33:15,204 - src.trainer - INFO - val_loss: 0.0443
+2024-12-28 15:33:15,205 - src.trainer - INFO - val_accuracy: 0.4000
+2024-12-28 15:33:15,207 - src.trainer - INFO - val_precision: 0.4375
+2024-12-28 15:33:15,208 - src.trainer - INFO - val_recall: 0.7000
+2024-12-28 15:33:15,210 - src.trainer - INFO - val_f1: 0.5385
+Training: 100%|██████████| 5/5 [00:00<00:00,  8.70it/s, loss=0.0443, acc=52.5, lr=1.4e-5] 
+2024-12-28 15:33:16,051 - src.trainer - INFO - Epoch 14/50
+2024-12-28 15:33:16,054 - src.trainer - INFO - Train Loss: 0.0443, Train Acc: 0.5250
+2024-12-28 15:33:16,055 - src.trainer - INFO - val_loss: 0.0442
+2024-12-28 15:33:16,056 - src.trainer - INFO - val_accuracy: 0.5500
+2024-12-28 15:33:16,057 - src.trainer - INFO - val_precision: 1.0000
+2024-12-28 15:33:16,058 - src.trainer - INFO - val_recall: 0.1000
+2024-12-28 15:33:16,059 - src.trainer - INFO - val_f1: 0.1818
+Training: 100%|██████████| 5/5 [00:00<00:00,  9.91it/s, loss=0.043, acc=46.2, lr=1.5e-5]  
+/root/miniconda3/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+2024-12-28 15:33:16,808 - src.trainer - INFO - Epoch 15/50
+2024-12-28 15:33:16,810 - src.trainer - INFO - Train Loss: 0.0430, Train Acc: 0.4625
+2024-12-28 15:33:16,812 - src.trainer - INFO - val_loss: 0.0452
+2024-12-28 15:33:16,814 - src.trainer - INFO - val_accuracy: 0.5000
+2024-12-28 15:33:16,816 - src.trainer - INFO - val_precision: 0.0000
+2024-12-28 15:33:16,818 - src.trainer - INFO - val_recall: 0.0000
+2024-12-28 15:33:16,820 - src.trainer - INFO - val_f1: 0.0000
+Training: 100%|██████████| 5/5 [00:00<00:00, 10.43it/s, loss=0.0453, acc=46.2, lr=1.6e-5] 
+2024-12-28 15:33:17,505 - src.trainer - INFO - Epoch 16/50
+2024-12-28 15:33:17,507 - src.trainer - INFO - Train Loss: 0.0453, Train Acc: 0.4625
+2024-12-28 15:33:17,508 - src.trainer - INFO - val_loss: 0.0440
+2024-12-28 15:33:17,509 - src.trainer - INFO - val_accuracy: 0.5000
+2024-12-28 15:33:17,510 - src.trainer - INFO - val_precision: 0.5000
+2024-12-28 15:33:17,511 - src.trainer - INFO - val_recall: 1.0000
+2024-12-28 15:33:17,512 - src.trainer - INFO - val_f1: 0.6667
+Training: 100%|██████████| 5/5 [00:00<00:00, 10.63it/s, loss=0.0473, acc=48.8, lr=1.7e-5] 
+2024-12-28 15:33:18,198 - src.trainer - INFO - Epoch 17/50
+2024-12-28 15:33:18,201 - src.trainer - INFO - Train Loss: 0.0473, Train Acc: 0.4875
+2024-12-28 15:33:18,203 - src.trainer - INFO - val_loss: 0.0443
+2024-12-28 15:33:18,204 - src.trainer - INFO - val_accuracy: 0.5500
+2024-12-28 15:33:18,206 - src.trainer - INFO - val_precision: 0.5714
+2024-12-28 15:33:18,207 - src.trainer - INFO - val_recall: 0.4000
+2024-12-28 15:33:18,209 - src.trainer - INFO - val_f1: 0.4706
+Training: 100%|██████████| 5/5 [00:00<00:00,  8.95it/s, loss=0.0476, acc=40, lr=1.8e-5]   
+/root/miniconda3/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+2024-12-28 15:33:19,013 - src.trainer - INFO - Epoch 18/50
+2024-12-28 15:33:19,015 - src.trainer - INFO - Train Loss: 0.0476, Train Acc: 0.4000
+2024-12-28 15:33:19,016 - src.trainer - INFO - val_loss: 0.0546
+2024-12-28 15:33:19,018 - src.trainer - INFO - val_accuracy: 0.5000
+2024-12-28 15:33:19,020 - src.trainer - INFO - val_precision: 0.0000
+2024-12-28 15:33:19,022 - src.trainer - INFO - val_recall: 0.0000
+2024-12-28 15:33:19,023 - src.trainer - INFO - val_f1: 0.0000
+2024-12-28 15:33:19,026 - src.trainer - INFO -
+Early stopping triggered after 18 epochs

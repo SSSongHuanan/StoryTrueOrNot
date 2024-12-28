@@ -1,0 +1,36 @@
+{
+  "os":  "Linux-5.15.0-78-generic-x86_64-with-glibc2.35",
+  "python":  "CPython 3.10.8",
+  "startedAt":  "2024-12-28T07:31:25.930158Z",
+  "program":  "autodl-tmp/StoryTrueOrNot/CBU5201_miniproject_submission.ipynb",
+  "email":  "sonnghuanan@bupt.edu.cn",
+  "root":  "/root/autodl-tmp/StoryTrueOrNot",
+  "host":  "autodl-container-557e4899c9-01498f95",
+  "executable":  "/root/miniconda3/bin/python",
+  "cpu_count":  64,
+  "cpu_count_logical":  128,
+  "gpu":  "NVIDIA GeForce RTX 4090",
+  "gpu_count":  1,
+  "disk":  {
+    "/":  {
+      "total":  "32212254720",
+      "used":  "949829632"
+    }
+  },
+  "memory":  {
+    "total":  "1081810522112"
+  },
+  "cpu":  {
+    "count":  64,
+    "countLogical":  128
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "NVIDIA GeForce RTX 4090",
+      "memoryTotal":  "25757220864",
+      "cudaCores":  16384,
+      "architecture":  "Ada"
+    }
+  ],
+  "cudaVersion":  "12.4"
+}
